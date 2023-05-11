@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Simulador.js"></script>
+    <title>Simulador autos</title>
+</head>
+<body>
+    <h1>Autos deportivos</h1>
+	<form>
+		<fieldset>
+			<legend>Selecciona un auto deportivo</legend>
+			<label>
+				<input type="radio" name="auto" value="porsche">
+				Porsche 911 GT3 RS - 4.0L 6 cilindros en línea
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="auto" value="lamborghini">
+				Lamborghini Aventador - 6.5L V12
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="auto" value="ferrari">
+				Ferrari 488 GTB - 3.9L V8
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="auto" value="mclaren">
+				McLaren 720S - 4.0L V8
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="auto" value="audi">
+				Audi R8 - 5.2L V10
+			</label>
+		</fieldset>
+		<br>
+		<button type="button" onclick="seleccionarAuto()">Seleccionar</button>
+	</form>
+	<p id="resultado"></p>
+</body>
+</html>
